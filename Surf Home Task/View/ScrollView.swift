@@ -9,12 +9,12 @@ import UIKit
 
 final class ScrollView: UIScrollView {
     
-    let iosDirection = DirectoryButton(name: "IOS")
-    let androidDirection = DirectoryButton(name: "Android")
-    let designDirection = DirectoryButton(name: "Design")
-    let flutterDirection = DirectoryButton(name: "Flutter")
-    let qaDirection = DirectoryButton(name: "QA")
-    let pmDirection = DirectoryButton(name: "PM")
+    let iosDirection = DirectoryButton(name: DirectionStrings.ios)
+    let androidDirection = DirectoryButton(name: DirectionStrings.android)
+    let designDirection = DirectoryButton(name: DirectionStrings.design)
+    let flutterDirection = DirectoryButton(name: DirectionStrings.flutter)
+    let qaDirection = DirectoryButton(name: DirectionStrings.qa)
+    let pmDirection = DirectoryButton(name: DirectionStrings.pm)
     
     init() {
         super.init(frame: CGRect())

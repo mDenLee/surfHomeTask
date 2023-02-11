@@ -14,7 +14,6 @@
 		9BA377782993DB1A00B0007B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA377762993DB1A00B0007B /* LaunchScreen.storyboard */; };
 		9BA377802993DBD200B0007B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3777F2993DBD200B0007B /* MainView.swift */; };
 		9BA377842993DF9800B0007B /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA377832993DF9800B0007B /* main.png */; };
-		9BA3778A2993E31C00B0007B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377892993E31C00B0007B /* Model.swift */; };
 		9BA37792299421E700B0007B /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37791299421E700B0007B /* BottomSheetView.swift */; };
 		9BA37794299421F700B0007B /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37793299421F700B0007B /* BottomSheetViewController.swift */; };
 		9BA37796299426ED00B0007B /* DirectoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA37795299426ED00B0007B /* DirectoryButton.swift */; };
@@ -23,6 +22,8 @@
 		9BA377C829962C9500B0007B /* VCAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377C729962C9500B0007B /* VCAlert.swift */; };
 		9BA377CC29977ABD00B0007B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377CB29977ABD00B0007B /* Colors.swift */; };
 		9BA377CE29977BD900B0007B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377CD29977BD900B0007B /* Fonts.swift */; };
+		9BA377D029977EAB00B0007B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377CF29977EAB00B0007B /* Strings.swift */; };
+		9BA377D2299780AA00B0007B /* DirectionStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA377D1299780AA00B0007B /* DirectionStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,6 @@
 		9BA377792993DB1A00B0007B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA3777F2993DBD200B0007B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9BA377832993DF9800B0007B /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
-		9BA377892993E31C00B0007B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9BA37791299421E700B0007B /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		9BA37793299421F700B0007B /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		9BA37795299426ED00B0007B /* DirectoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryButton.swift; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		9BA377C729962C9500B0007B /* VCAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAlert.swift; sourceTree = "<group>"; };
 		9BA377CB29977ABD00B0007B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9BA377CD29977BD900B0007B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		9BA377CF29977EAB00B0007B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		9BA377D1299780AA00B0007B /* DirectionStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,6 @@
 		9BA3778B2993E5C600B0007B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9BA377892993E31C00B0007B /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +142,8 @@
 			children = (
 				9BA377CB29977ABD00B0007B /* Colors.swift */,
 				9BA377CD29977BD900B0007B /* Fonts.swift */,
+				9BA377CF29977EAB00B0007B /* Strings.swift */,
+				9BA377D1299780AA00B0007B /* DirectionStrings.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -218,11 +221,12 @@
 			files = (
 				9BA377C429961A9C00B0007B /* StackView.swift in Sources */,
 				9BA377CC29977ABD00B0007B /* Colors.swift in Sources */,
+				9BA377D2299780AA00B0007B /* DirectionStrings.swift in Sources */,
 				9BA377CE29977BD900B0007B /* Fonts.swift in Sources */,
 				9BA37794299421F700B0007B /* BottomSheetViewController.swift in Sources */,
 				9BA37796299426ED00B0007B /* DirectoryButton.swift in Sources */,
 				9BA37792299421E700B0007B /* BottomSheetView.swift in Sources */,
-				9BA3778A2993E31C00B0007B /* Model.swift in Sources */,
+				9BA377D029977EAB00B0007B /* Strings.swift in Sources */,
 				9BA377702993DB1000B0007B /* MainViewController.swift in Sources */,
 				9BA377802993DBD200B0007B /* MainView.swift in Sources */,
 				9BA3776C2993DB1000B0007B /* AppDelegate.swift in Sources */,

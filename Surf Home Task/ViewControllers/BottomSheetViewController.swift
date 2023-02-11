@@ -4,7 +4,6 @@ import UIKit
 final class BottomSheetViewController: UIViewController{
     
     private let mainView = BottomSheetView()
-    private let directionData = Model()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,16 +12,16 @@ final class BottomSheetViewController: UIViewController{
     }
     
     func setViews() {
-        mainView.mainLabel.text = directionData.titleString
-        mainView.firstDetailLabel.text = directionData.detailString
-        mainView.secondDetailLabel.text = directionData.secondDetailString
-        mainView.joinButton.setTitle(directionData.joinButtonString, for: .normal)
-        mainView.askLabel.text = directionData.askString
+        mainView.mainLabel.text = Strings.titleString
+        mainView.firstDetailLabel.text = Strings.detailString
+        mainView.secondDetailLabel.text = Strings.secondDetailString
+        mainView.joinButton.setTitle(Strings.joinButtonString, for: .normal)
+        mainView.askLabel.text = Strings.askString
         mainView.joinButton.addTarget(self, action: #selector(click), for: .touchUpInside)
     }
     
     @objc func click(sender: UIButton) {
-        showInfoAlert(title: directionData.alertTitleString, message: directionData.alertTextString)
+        showInfoAlert(title: Strings.alertTitleString, message: Strings.alertTextString)
     }
 }
 
