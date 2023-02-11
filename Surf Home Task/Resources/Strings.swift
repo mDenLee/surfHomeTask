@@ -9,6 +9,8 @@ import Foundation
 
 enum Strings {
     
+    // MARK: Strings
+    
     static var titleString: String {
         return "Стажировка в Surf"
     }
