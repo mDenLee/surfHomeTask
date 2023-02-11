@@ -89,8 +89,6 @@
 				9BA377C929977A1500B0007B /* Supporting Files */,
 				9BA3776B2993DB1000B0007B /* AppDelegate.swift */,
 				9BA3776D2993DB1000B0007B /* SceneDelegate.swift */,
-				9BA377742993DB1A00B0007B /* Assets.xcassets */,
-				9BA377762993DB1A00B0007B /* LaunchScreen.storyboard */,
 				9BA377792993DB1A00B0007B /* Info.plist */,
 			);
 			path = "Surf Home Task";
@@ -135,6 +133,7 @@
 		9BA377C929977A1500B0007B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BA377762993DB1A00B0007B /* LaunchScreen.storyboard */,
 				9BA377832993DF9800B0007B /* main.png */,
 			);
 			path = "Supporting Files";
@@ -143,6 +142,7 @@
 		9BA377CA29977A9700B0007B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9BA377742993DB1A00B0007B /* Assets.xcassets */,
 				9BA377CB29977ABD00B0007B /* Colors.swift */,
 				9BA377CD29977BD900B0007B /* Fonts.swift */,
 				9BA377CF29977EAB00B0007B /* Strings.swift */,
