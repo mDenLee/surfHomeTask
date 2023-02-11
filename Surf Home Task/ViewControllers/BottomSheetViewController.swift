@@ -11,6 +11,10 @@ final class BottomSheetViewController: UIViewController{
         setViews()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        Animation.scrollRightLeft(view: mainView.scrollView)
+    }
+    
     func setViews() {
         mainView.mainLabel.text = Strings.titleString
         mainView.firstDetailLabel.text = Strings.detailString
