@@ -1,6 +1,6 @@
 import UIKit
 
-class StackView: UIStackView {
+final class StackView: UIStackView {
     
     let iosDirection = DirectoryButton(name: "IOS")
     let androidDirection = DirectoryButton(name: "Android")

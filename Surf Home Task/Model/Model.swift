@@ -1,9 +1,3 @@
-//
-//  Data.swift
-//  Surf Home Task
-//
-//  Created by Lee on 08.02.2023.
-//
 
 import UIKit
 

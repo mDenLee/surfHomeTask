@@ -1,6 +1,6 @@
 import UIKit
 
-class MainView: UIView {
+final class MainView: UIView {
     
     private let image = UIImage(named: "main")
     let imageView = UIImageView()

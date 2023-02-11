@@ -1,6 +1,7 @@
+
 import UIKit
 
-class BottomSheetViewController: UIViewController{
+final class BottomSheetViewController: UIViewController{
     
     private let mainView = BottomSheetView()
     private let directionData = Model()

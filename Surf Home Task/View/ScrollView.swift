@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScrollView: UIScrollView {
+final class ScrollView: UIScrollView {
     
     let iosDirection = DirectoryButton(name: "IOS")
     let androidDirection = DirectoryButton(name: "Android")

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BottomSheetView: UIView {
+final class BottomSheetView: UIView {
     
     let mainLabel = UILabel()
     let firstDetailLabel = UILabel()
@@ -25,12 +25,12 @@ class BottomSheetView: UIView {
     }
 
     func setViews() {
-        mainLabel.font = UIFont(name: "SFProDisplay-Bold", size: 24.0)
+        mainLabel.font = Fonts.tittleFont
         mainLabel.textColor = .black
         mainLabel.translatesAutoresizingMaskIntoConstraints = false
         addSubview(mainLabel)
 
-        firstDetailLabel.font = UIFont(name: "SFProDisplay-Regular", size: 14)
+        firstDetailLabel.font = Fonts.detailTextFont
         firstDetailLabel.textColor = .lightGray
         firstDetailLabel.numberOfLines = 0
         firstDetailLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -39,7 +39,7 @@ class BottomSheetView: UIView {
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(scrollView)
 
-        secondDetailLabel.font = UIFont(name: "SFProDisplay-Regular", size: 14)
+        secondDetailLabel.font = Fonts.detailTextFont
         secondDetailLabel.textColor = .lightGray
         secondDetailLabel.numberOfLines = 0
         secondDetailLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -51,11 +51,11 @@ class BottomSheetView: UIView {
         joinButton.backgroundColor = .darkGray
         joinButton.layer.cornerRadius = 30
         joinButton.titleLabel?.textColor = .white
-        joinButton.titleLabel?.font = UIFont(name: "SFProDisplay-Medium", size: 16)
+        joinButton.titleLabel?.font = Fonts.joinButtonTextFont
         joinButton.translatesAutoresizingMaskIntoConstraints = false
         addSubview(joinButton)
         
-        askLabel.font = UIFont(name: "SFProDisplay-Regular", size: 14)
+        askLabel.font = Fonts.detailTextFont
         askLabel.textColor = .lightGray
         askLabel.translatesAutoresizingMaskIntoConstraints = false
         addSubview(askLabel)
